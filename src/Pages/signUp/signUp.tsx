@@ -7,7 +7,7 @@ import styles from './signUp.module.css'
 const SignupPage: React.FC = () => {
     return (
         <Row className={styles.container} >
-            <Col span={12} xs={24} lg={12}>
+            <Col span={12} xs={24} lg={12} className={styles.FormCol}>
                 <SignupForm />
             </Col>
             <Col span={12} xs={24} lg={12} className={styles.imageCol}>
